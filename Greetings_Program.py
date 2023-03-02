@@ -8,7 +8,7 @@ Then prints:
 "Your name is Bond, James"
 
 Note: The last name is printed first, followed by a comma, and then the first name. 
-But if we're using James Bond we'll have to repeat the last mame, yes?
+But if we're using James Bond we'll have to repeat the last name, yes?
 """
 first_name = input("What is your first name please? ")
 last_name = input("What is your last name please? ")
@@ -19,3 +19,5 @@ if full_name == "James Bond":
     print("It's nice to meet you 007.")
 elif full_name == "Jim Kirk":
     print("Welcome aboard Captain Kirk!")
+else:
+    print(f"It's nice to meet you {first_name}.")    
